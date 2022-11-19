@@ -1,0 +1,576 @@
+2022-11-16 10:13:49 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:13:53 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:13:57 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:14:02 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:14:06 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:14:10 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:14:15 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:14:19 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:14:23 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:14:27 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:14:31 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:14:35 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:14:39 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:14:43 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:14:48 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:14:52 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:14:56 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:15:00 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:15:04 [EDI System] error: uncaughtException: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+Error: Cannot find module 'D:\EDI\edisystem\handlers\makeFileText'
+Require stack:
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+2022-11-16 10:16:38 [EDI System] error: uncaughtException: Cannot find module '../config/logger'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+Error: Cannot find module '../config/logger'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\handlers\out\makeFileText.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+2022-11-16 10:16:42 [EDI System] error: uncaughtException: Cannot find module '../config/logger'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+Error: Cannot find module '../config/logger'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\handlers\out\makeFileText.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+2022-11-16 10:16:46 [EDI System] error: uncaughtException: Cannot find module '../config/logger'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+Error: Cannot find module '../config/logger'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\handlers\out\makeFileText.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+2022-11-16 10:16:50 [EDI System] error: uncaughtException: Cannot find module '../config/logger'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+Error: Cannot find module '../config/logger'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\handlers\out\makeFileText.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+2022-11-16 10:16:53 [EDI System] error: uncaughtException: Cannot find module '../config/logger'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+Error: Cannot find module '../config/logger'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\handlers\out\makeFileText.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+2022-11-16 10:16:57 [EDI System] error: uncaughtException: Cannot find module '../config/logger'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+Error: Cannot find module '../config/logger'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\EDI\edisystem\handlers\out\makeFileText.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Hook._require.Module.require (C:\Users\1191214\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+2022-11-16 20:11:00 [EDI System] error: uncaughtException: ENOENT: no such file or directory, scandir '/receive'
+Error: ENOENT: no such file or directory, scandir '/receive'
+    at Object.readdirSync (node:fs:1392:3)
+    at fileCheck (D:\EDI\edisystem\in_folder\index.js:15:20)
+    at module.exports (D:\EDI\edisystem\in_folder\index.js:42:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-16 20:12:01 [EDI System] error: uncaughtException: ENOENT: no such file or directory, scandir '/receive'
+Error: ENOENT: no such file or directory, scandir '/receive'
+    at Object.readdirSync (node:fs:1392:3)
+    at fileCheck (D:\EDI\edisystem\in_folder\index.js:16:20)
+    at module.exports (D:\EDI\edisystem\in_folder\index.js:43:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-16 20:15:00 [EDI System] error: uncaughtException: Cannot find module '../db/mes'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+Error: Cannot find module '../db/mes'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at getDB (D:\EDI\edisystem\handlers\out\makeFileText.js:159:24)
+    at async contentsGet (D:\EDI\edisystem\handlers\out\makeFileText.js:22:34)
+    at async makeFileText (D:\EDI\edisystem\handlers\out\makeFileText.js:49:22)
+    at async module.exports (D:\EDI\edisystem\handlers\out\makeFileText.js:151:12)
+2022-11-16 20:15:00 [EDI System] error: uncaughtException: Cannot find module '../db/mes'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+Error: Cannot find module '../db/mes'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at getDB (D:\EDI\edisystem\handlers\out\makeFileText.js:159:24)
+    at async contentsGet (D:\EDI\edisystem\handlers\out\makeFileText.js:22:34)
+    at async makeFileText (D:\EDI\edisystem\handlers\out\makeFileText.js:49:22)
+    at async module.exports (D:\EDI\edisystem\handlers\out\makeFileText.js:151:12)
+2022-11-16 20:15:00 [EDI System] error: uncaughtException: Cannot find module '../db/mes'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+Error: Cannot find module '../db/mes'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at getDB (D:\EDI\edisystem\handlers\out\makeFileText.js:159:24)
+    at async contentsGet (D:\EDI\edisystem\handlers\out\makeFileText.js:22:34)
+    at async makeFileText (D:\EDI\edisystem\handlers\out\makeFileText.js:49:22)
+    at async module.exports (D:\EDI\edisystem\handlers\out\makeFileText.js:151:12)
+2022-11-16 20:15:00 [EDI System] error: uncaughtException: Cannot find module '../db/main'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+Error: Cannot find module '../db/main'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at getDB (D:\EDI\edisystem\handlers\out\makeFileText.js:157:24)
+    at async makeFileText (D:\EDI\edisystem\handlers\out\makeFileText.js:81:20)
+    at async module.exports (D:\EDI\edisystem\handlers\out\makeFileText.js:151:12)
+2022-11-16 20:15:00 [EDI System] error: uncaughtException: Cannot find module '../db/main'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+Error: Cannot find module '../db/main'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at getDB (D:\EDI\edisystem\handlers\out\makeFileText.js:157:24)
+    at async makeFileText (D:\EDI\edisystem\handlers\out\makeFileText.js:81:20)
+    at async module.exports (D:\EDI\edisystem\handlers\out\makeFileText.js:151:12)
+2022-11-16 20:16:30 [EDI System] error: uncaughtException: Cannot read properties of undefined (reading 'toString')
+TypeError: Cannot read properties of undefined (reading 'toString')
+    at fileCheck (D:\EDI\edisystem\in_folder\index.js:18:17)
+    at module.exports (D:\EDI\edisystem\in_folder\index.js:43:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-16 20:17:30 [EDI System] error: uncaughtException: Cannot read properties of undefined (reading 'indexOf')
+TypeError: Cannot read properties of undefined (reading 'indexOf')
+    at fileCheck (D:\EDI\edisystem\in_folder\index.js:18:17)
+    at module.exports (D:\EDI\edisystem\in_folder\index.js:43:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-16 20:17:31 [EDI System] error: uncaughtException: Cannot find module '../db/mes'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+Error: Cannot find module '../db/mes'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at getDB (D:\EDI\edisystem\handlers\out\makeFileText.js:159:24)
+    at async contentsGet (D:\EDI\edisystem\handlers\out\makeFileText.js:22:34)
+    at async makeFileText (D:\EDI\edisystem\handlers\out\makeFileText.js:49:22)
+    at async module.exports (D:\EDI\edisystem\handlers\out\makeFileText.js:151:12)
+2022-11-16 20:17:31 [EDI System] error: uncaughtException: Cannot find module '../db/mes'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+Error: Cannot find module '../db/mes'
+Require stack:
+- D:\EDI\edisystem\handlers\out\makeFileText.js
+- D:\EDI\edisystem\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at getDB (D:\EDI\edisystem\handlers\out\makeFileText.js:159:24)
+    at async contentsGet (D:\EDI\edisystem\handlers\out\makeFileText.js:22:34)
+    at async makeFileText (D:\EDI\edisystem\handlers\out\makeFileText.js:49:22)
+    at async module.exports (D:\EDI\edisystem\handlers\out\makeFileText.js:151:12)
+2022-11-16 20:18:30 [EDI System] error: uncaughtException: Cannot read properties of undefined (reading 'indexOf')
+TypeError: Cannot read properties of undefined (reading 'indexOf')
+    at fileCheck (D:\EDI\edisystem\in_folder\index.js:18:17)
+    at module.exports (D:\EDI\edisystem\in_folder\index.js:43:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-16 20:20:00 [EDI System] error: uncaughtException: Cannot read properties of undefined (reading 'indexOf')
+TypeError: Cannot read properties of undefined (reading 'indexOf')
+    at fileCheck (D:\EDI\edisystem\in_folder\index.js:20:17)
+    at module.exports (D:\EDI\edisystem\in_folder\index.js:45:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-16 20:21:30 [EDI System] error: uncaughtException: checkFolder is not defined
+ReferenceError: checkFolder is not defined
+    at module.exports (D:\EDI\edisystem\handlers\in\getXml.js:11:5)
+    at Object.XML (D:\EDI\edisystem\in_folder\index.js:12:20)
+    at fileCheck (D:\EDI\edisystem\in_folder\index.js:18:101)
+    at module.exports (D:\EDI\edisystem\in_folder\index.js:43:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-16 20:22:31 [EDI System] error: uncaughtException: checkFolder is not defined
+ReferenceError: checkFolder is not defined
+    at module.exports (D:\EDI\edisystem\handlers\in\getXml.js:11:5)
+    at Object.XML (D:\EDI\edisystem\in_folder\index.js:12:20)
+    at fileCheck (D:\EDI\edisystem\in_folder\index.js:18:101)
+    at module.exports (D:\EDI\edisystem\in_folder\index.js:43:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-16 20:23:30 [EDI System] error: uncaughtException: fs is not defined
+ReferenceError: fs is not defined
+    at readXML (D:\EDI\edisystem\handlers\in\getXml.js:4:17)
+    at module.exports (D:\EDI\edisystem\handlers\in\getXml.js:11:11)
+    at Object.XML (D:\EDI\edisystem\in_folder\index.js:12:20)
+    at fileCheck (D:\EDI\edisystem\in_folder\index.js:18:101)
+    at module.exports (D:\EDI\edisystem\in_folder\index.js:43:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

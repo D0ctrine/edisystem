@@ -1,0 +1,2136 @@
+2022-11-17 17:46:00 [EDI System] info: 
+    INSERT INTO EDIXMLRECV(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM, ITEMS)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :fromLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '', :LotItem)
+    
+2022-11-17 17:46:01 [EDI System] error: Select SQL Failed = SQL : 
+    INSERT INTO EDIXMLRECV(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM, ITEMS)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :fromLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '', :LotItem)
+     / Params : [object Object] {"errorNum":1036,"offset":0}
+2022-11-17 17:48:30 [EDI System] info: 
+    INSERT INTO EDIXMLRECV(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM, ITEMS)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :fromLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '', :LotItem)
+    
+2022-11-17 17:48:30 [EDI System] error: Insert SQL Failed = ORA-01036: 잘못된 변수명/번호 SQL : 
+    INSERT INTO EDIXMLRECV(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM, ITEMS)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :fromLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '', :LotItem)
+     / Params : {"txID":"47851304","txSourceUpdateTime":"20191221 093246","supplierName":"INFINEON TECHNOLOGIES ASIA PACIFIC PTE LTD","lotName":"5571879","newLotName":"ZA913207","mesLotName":"ZA913207","fromStageSetName":"MS_OUT-STORE","Operation":"9996","productName":"TD005352551","goodQty1":"20","goodQty2":"5923","rejectQty1":"0","locationName":"MS","LotItem":"[{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.06\"},\"goodQty\":{\"_text\":\"308\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"06\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.07\"},\"goodQty\":{\"_text\":\"319\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"07\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.08\"},\"goodQty\":{\"_text\":\"312\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"08\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.09\"},\"goodQty\":{\"_text\":\"273\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"09\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.10\"},\"goodQty\":{\"_text\":\"260\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"10\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.11\"},\"goodQty\":{\"_text\":\"297\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"11\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.12\"},\"goodQty\":{\"_text\":\"326\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"12\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.13\"},\"goodQty\":{\"_text\":\"279\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"13\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.14\"},\"goodQty\":{\"_text\":\"295\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"14\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.15\"},\"goodQty\":{\"_text\":\"273\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"15\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.16\"},\"goodQty\":{\"_text\":\"308\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"16\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.17\"},\"goodQty\":{\"_text\":\"322\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"17\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.18\"},\"goodQty\":{\"_text\":\"320\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"18\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.19\"},\"goodQty\":{\"_text\":\"310\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"19\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.20\"},\"goodQty\":{\"_text\":\"312\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"20\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.21\"},\"goodQty\":{\"_text\":\"241\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"21\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.22\"},\"goodQty\":{\"_text\":\"290\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"22\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.23\"},\"goodQty\":{\"_text\":\"267\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"23\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.24\"},\"goodQty\":{\"_text\":\"313\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"24\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}},{\"itemName\":{},\"itemGroup\":{\"_text\":\"ZA913207.25\"},\"goodQty\":{\"_text\":\"298\"},\"rejectQty\":{\"_text\":\"0\"},\"estimatedQty\":{\"_text\":\"0\"},\"productName\":{\"_text\":\"TD005352551\"},\"productRevision\":{},\"referenceFlag\":{\"_text\":\"false\"},\"itemType\":{},\"itemDescription\":{},\"itemStatus\":{},\"targetChildLotName\":{},\"genChar01\":{\"_text\":\"25\"},\"genChar02\":{},\"genChar03\":{},\"genChar04\":{},\"genChar05\":{},\"genInt01\":{}}]"}
+2022-11-17 19:06:30 [EDI System] info: 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :fromLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+    
+2022-11-17 19:06:30 [EDI System] error: Insert SQL Failed = ORA-01036: 잘못된 변수명/번호 SQL : 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :fromLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+     / Params : {"txID":"47851304","txSourceUpdateTime":"20191221 093246","supplierName":"INFINEON TECHNOLOGIES ASIA PACIFIC PTE LTD","lotName":"5571879","newLotName":"ZA913207","mesLotName":"ZA913207","fromStageSetName":"MS_OUT-STORE","Operation":"9996","productName":"TD005352551","goodQty1":"20","goodQty2":"5923","rejectQty1":"0","locationName":"MS"}
+2022-11-17 19:09:00 [EDI System] info: 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+    
+2022-11-17 19:09:00 [EDI System] info: Insert successful = SQL: 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+     | Params: {"txID":"47851304","txSourceUpdateTime":"20191221 093246","supplierName":"INFINEON TECHNOLOGIES ASIA PACIFIC PTE LTD","lotName":"5571879","newLotName":"ZA913207","mesLotName":"ZA913207","fromStageSetName":"MS_OUT-STORE","Operation":"9996","productName":"TD005352551","goodQty1":"20","goodQty2":"5923","rejectQty1":"0","locationName":"MS"} / 1
+2022-11-17 19:11:30 [EDI System] info: 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+    
+2022-11-17 19:11:30 [EDI System] info: Insert successful = SQL: 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+     | Params: {"txID":"47851304","txSourceUpdateTime":"20191221 093246","supplierName":"INFINEON TECHNOLOGIES ASIA PACIFIC PTE LTD","lotName":"5571879","newLotName":"ZA913207","mesLotName":"ZA913207","fromStageSetName":"MS_OUT-STORE","Operation":"9996","productName":"TD005352551","goodQty1":"20","goodQty2":"5923","rejectQty1":"0","locationName":"MS"} / 1
+2022-11-17 19:29:00 [EDI System] info: 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 0, ZA913207.06, 308, 06
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 1, ZA913207.07, 319, 07
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 2, ZA913207.08, 312, 08
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 3, ZA913207.09, 273, 09
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 4, ZA913207.10, 260, 10
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 5, ZA913207.11, 297, 11
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 6, ZA913207.12, 326, 12
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 7, ZA913207.13, 279, 13
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 8, ZA913207.14, 295, 14
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 9, ZA913207.15, 273, 15
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 10, ZA913207.16, 308, 16
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 11, ZA913207.17, 322, 17
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 12, ZA913207.18, 320, 18
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 13, ZA913207.19, 310, 19
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 14, ZA913207.20, 312, 20
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 15, ZA913207.21, 241, 21
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 16, ZA913207.22, 290, 22
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 17, ZA913207.23, 267, 23
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 18, ZA913207.24, 313, 24
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 19, ZA913207.25, 298, 25
+                  , , , 
+                  )
+    SELECT * FROM DUAL
+    
+2022-11-17 19:29:01 [EDI System] error: Insert SQL Failed = ORA-00917: 누락된 콤마 SQL : 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 0, ZA913207.06, 308, 06
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 1, ZA913207.07, 319, 07
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 2, ZA913207.08, 312, 08
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 3, ZA913207.09, 273, 09
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 4, ZA913207.10, 260, 10
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 5, ZA913207.11, 297, 11
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 6, ZA913207.12, 326, 12
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 7, ZA913207.13, 279, 13
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 8, ZA913207.14, 295, 14
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 9, ZA913207.15, 273, 15
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 10, ZA913207.16, 308, 16
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 11, ZA913207.17, 322, 17
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 12, ZA913207.18, 320, 18
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 13, ZA913207.19, 310, 19
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 14, ZA913207.20, 312, 20
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 15, ZA913207.21, 241, 21
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 16, ZA913207.22, 290, 22
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 17, ZA913207.23, 267, 23
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 18, ZA913207.24, 313, 24
+                  , , , 
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 19, ZA913207.25, 298, 25
+                  , , , 
+                  )
+    SELECT * FROM DUAL
+     / Params : undefined
+2022-11-17 19:30:30 [EDI System] info: 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 0, ZA913207.06, 308, 06
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 1, ZA913207.07, 319, 07
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 2, ZA913207.08, 312, 08
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 3, ZA913207.09, 273, 09
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 4, ZA913207.10, 260, 10
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 5, ZA913207.11, 297, 11
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 6, ZA913207.12, 326, 12
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 7, ZA913207.13, 279, 13
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 8, ZA913207.14, 295, 14
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 9, ZA913207.15, 273, 15
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 10, ZA913207.16, 308, 16
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 11, ZA913207.17, 322, 17
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 12, ZA913207.18, 320, 18
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 13, ZA913207.19, 310, 19
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 14, ZA913207.20, 312, 20
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 15, ZA913207.21, 241, 21
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 16, ZA913207.22, 290, 22
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 17, ZA913207.23, 267, 23
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 18, ZA913207.24, 313, 24
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 19, ZA913207.25, 298, 25
+                  ,  ,  ,  
+                  )
+    SELECT * FROM DUAL
+    
+2022-11-17 19:30:30 [EDI System] error: Insert SQL Failed = ORA-00917: 누락된 콤마 SQL : 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 0, ZA913207.06, 308, 06
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 1, ZA913207.07, 319, 07
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 2, ZA913207.08, 312, 08
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 3, ZA913207.09, 273, 09
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 4, ZA913207.10, 260, 10
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 5, ZA913207.11, 297, 11
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 6, ZA913207.12, 326, 12
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 7, ZA913207.13, 279, 13
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 8, ZA913207.14, 295, 14
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 9, ZA913207.15, 273, 15
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 10, ZA913207.16, 308, 16
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 11, ZA913207.17, 322, 17
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 12, ZA913207.18, 320, 18
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 13, ZA913207.19, 310, 19
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 14, ZA913207.20, 312, 20
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 15, ZA913207.21, 241, 21
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 16, ZA913207.22, 290, 22
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 17, ZA913207.23, 267, 23
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 18, ZA913207.24, 313, 24
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 19, ZA913207.25, 298, 25
+                  ,  ,  ,  
+                  )
+    SELECT * FROM DUAL
+     / Params : undefined
+2022-11-17 19:32:00 [EDI System] info: 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 0, ZA913207.06, 308, 06
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 1, ZA913207.07, 319, 07
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 2, ZA913207.08, 312, 08
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 3, ZA913207.09, 273, 09
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 4, ZA913207.10, 260, 10
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 5, ZA913207.11, 297, 11
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 6, ZA913207.12, 326, 12
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 7, ZA913207.13, 279, 13
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 8, ZA913207.14, 295, 14
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 9, ZA913207.15, 273, 15
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 10, ZA913207.16, 308, 16
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 11, ZA913207.17, 322, 17
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 12, ZA913207.18, 320, 18
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 13, ZA913207.19, 310, 19
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 14, ZA913207.20, 312, 20
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 15, ZA913207.21, 241, 21
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 16, ZA913207.22, 290, 22
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 17, ZA913207.23, 267, 23
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 18, ZA913207.24, 313, 24
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 19, ZA913207.25, 298, 25
+                  ,  ,  ,  
+                  )
+    SELECT * FROM DUAL
+    
+2022-11-17 19:32:00 [EDI System] error: Insert SQL Failed = ORA-00917: 누락된 콤마 SQL : 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 0, ZA913207.06, 308, 06
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 1, ZA913207.07, 319, 07
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 2, ZA913207.08, 312, 08
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 3, ZA913207.09, 273, 09
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 4, ZA913207.10, 260, 10
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 5, ZA913207.11, 297, 11
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 6, ZA913207.12, 326, 12
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 7, ZA913207.13, 279, 13
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 8, ZA913207.14, 295, 14
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 9, ZA913207.15, 273, 15
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 10, ZA913207.16, 308, 16
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 11, ZA913207.17, 322, 17
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 12, ZA913207.18, 320, 18
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 13, ZA913207.19, 310, 19
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 14, ZA913207.20, 312, 20
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 15, ZA913207.21, 241, 21
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 16, ZA913207.22, 290, 22
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 17, ZA913207.23, 267, 23
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 18, ZA913207.24, 313, 24
+                  ,  ,  ,  
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 19, ZA913207.25, 298, 25
+                  ,  ,  ,  
+                  )
+    SELECT * FROM DUAL
+     / Params : undefined
+2022-11-17 19:35:00 [EDI System] info: 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 0, ZA913207.06||'', 308||'', 06||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 1, ZA913207.07||'', 319||'', 07||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 2, ZA913207.08||'', 312||'', 08||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 3, ZA913207.09||'', 273||'', 09||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 4, ZA913207.10||'', 260||'', 10||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 5, ZA913207.11||'', 297||'', 11||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 6, ZA913207.12||'', 326||'', 12||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 7, ZA913207.13||'', 279||'', 13||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 8, ZA913207.14||'', 295||'', 14||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 9, ZA913207.15||'', 273||'', 15||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 10, ZA913207.16||'', 308||'', 16||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 11, ZA913207.17||'', 322||'', 17||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 12, ZA913207.18||'', 320||'', 18||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 13, ZA913207.19||'', 310||'', 19||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 14, ZA913207.20||'', 312||'', 20||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 15, ZA913207.21||'', 241||'', 21||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 16, ZA913207.22||'', 290||'', 22||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 17, ZA913207.23||'', 267||'', 23||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 18, ZA913207.24||'', 313||'', 24||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 19, ZA913207.25||'', 298||'', 25||''
+                  , ||'', ||'', ||''
+                  )
+    SELECT * FROM DUAL
+    
+2022-11-17 19:35:00 [EDI System] error: Insert SQL Failed = ORA-00917: 누락된 콤마 SQL : 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 0, ZA913207.06||'', 308||'', 06||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 1, ZA913207.07||'', 319||'', 07||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 2, ZA913207.08||'', 312||'', 08||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 3, ZA913207.09||'', 273||'', 09||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 4, ZA913207.10||'', 260||'', 10||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 5, ZA913207.11||'', 297||'', 11||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 6, ZA913207.12||'', 326||'', 12||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 7, ZA913207.13||'', 279||'', 13||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 8, ZA913207.14||'', 295||'', 14||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 9, ZA913207.15||'', 273||'', 15||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 10, ZA913207.16||'', 308||'', 16||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 11, ZA913207.17||'', 322||'', 17||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 12, ZA913207.18||'', 320||'', 18||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 13, ZA913207.19||'', 310||'', 19||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 14, ZA913207.20||'', 312||'', 20||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 15, ZA913207.21||'', 241||'', 21||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 16, ZA913207.22||'', 290||'', 22||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 17, ZA913207.23||'', 267||'', 23||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 18, ZA913207.24||'', 313||'', 24||''
+                  , ||'', ||'', ||''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    47851304, 19, ZA913207.25||'', 298||'', 25||''
+                  , ||'', ||'', ||''
+                  )
+    SELECT * FROM DUAL
+     / Params : undefined
+2022-11-17 19:37:00 [EDI System] info: 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '0', 'ZA913207.06', '308', '06'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '1', 'ZA913207.07', '319', '07'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '2', 'ZA913207.08', '312', '08'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '3', 'ZA913207.09', '273', '09'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '4', 'ZA913207.10', '260', '10'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '5', 'ZA913207.11', '297', '11'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '6', 'ZA913207.12', '326', '12'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '7', 'ZA913207.13', '279', '13'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '8', 'ZA913207.14', '295', '14'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '9', 'ZA913207.15', '273', '15'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '10', 'ZA913207.16', '308', '16'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '11', 'ZA913207.17', '322', '17'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '12', 'ZA913207.18', '320', '18'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '13', 'ZA913207.19', '310', '19'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '14', 'ZA913207.20', '312', '20'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '15', 'ZA913207.21', '241', '21'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '16', 'ZA913207.22', '290', '22'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '17', 'ZA913207.23', '267', '23'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '18', 'ZA913207.24', '313', '24'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '19', 'ZA913207.25', '298', '25'
+                  , '', '', ''
+                  )
+    SELECT * FROM DUAL
+    
+2022-11-17 19:37:01 [EDI System] error: Insert SQL Failed = ORA-02291: 무결성 제약조건(COMS.FK_EDIXMLITEMS)이 위배되었습니다- 부모 키가 없습니다 SQL : 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '0', 'ZA913207.06', '308', '06'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '1', 'ZA913207.07', '319', '07'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '2', 'ZA913207.08', '312', '08'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '3', 'ZA913207.09', '273', '09'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '4', 'ZA913207.10', '260', '10'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '5', 'ZA913207.11', '297', '11'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '6', 'ZA913207.12', '326', '12'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '7', 'ZA913207.13', '279', '13'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '8', 'ZA913207.14', '295', '14'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '9', 'ZA913207.15', '273', '15'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '10', 'ZA913207.16', '308', '16'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '11', 'ZA913207.17', '322', '17'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '12', 'ZA913207.18', '320', '18'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '13', 'ZA913207.19', '310', '19'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '14', 'ZA913207.20', '312', '20'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '15', 'ZA913207.21', '241', '21'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '16', 'ZA913207.22', '290', '22'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '17', 'ZA913207.23', '267', '23'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '18', 'ZA913207.24', '313', '24'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '19', 'ZA913207.25', '298', '25'
+                  , '', '', ''
+                  )
+    SELECT * FROM DUAL
+     / Params : undefined
+2022-11-17 19:40:30 [EDI System] info: 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+    
+2022-11-17 19:40:30 [EDI System] info: Insert successful = SQL: 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+     | Params: {"txID":"47851304","txSourceUpdateTime":"20191221 093246","supplierName":"INFINEON TECHNOLOGIES ASIA PACIFIC PTE LTD","lotName":"5571879","newLotName":"ZA913207","mesLotName":"ZA913207","fromStageSetName":"MS_OUT-STORE","Operation":"9996","productName":"TD005352551","goodQty1":"20","goodQty2":"5923","rejectQty1":"0","locationName":"MS"} / 1
+2022-11-17 19:40:30 [EDI System] info: 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '0', 'ZA913207.06', '308', '06'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '1', 'ZA913207.07', '319', '07'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '2', 'ZA913207.08', '312', '08'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '3', 'ZA913207.09', '273', '09'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '4', 'ZA913207.10', '260', '10'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '5', 'ZA913207.11', '297', '11'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '6', 'ZA913207.12', '326', '12'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '7', 'ZA913207.13', '279', '13'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '8', 'ZA913207.14', '295', '14'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '9', 'ZA913207.15', '273', '15'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '10', 'ZA913207.16', '308', '16'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '11', 'ZA913207.17', '322', '17'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '12', 'ZA913207.18', '320', '18'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '13', 'ZA913207.19', '310', '19'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '14', 'ZA913207.20', '312', '20'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '15', 'ZA913207.21', '241', '21'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '16', 'ZA913207.22', '290', '22'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '17', 'ZA913207.23', '267', '23'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '18', 'ZA913207.24', '313', '24'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '19', 'ZA913207.25', '298', '25'
+                  , '', '', ''
+                  )
+    SELECT * FROM DUAL
+    
+2022-11-17 19:40:30 [EDI System] info: Insert successful = SQL: 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '0', 'ZA913207.06', '308', '06'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '1', 'ZA913207.07', '319', '07'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '2', 'ZA913207.08', '312', '08'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '3', 'ZA913207.09', '273', '09'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '4', 'ZA913207.10', '260', '10'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '5', 'ZA913207.11', '297', '11'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '6', 'ZA913207.12', '326', '12'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '7', 'ZA913207.13', '279', '13'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '8', 'ZA913207.14', '295', '14'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '9', 'ZA913207.15', '273', '15'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '10', 'ZA913207.16', '308', '16'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '11', 'ZA913207.17', '322', '17'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '12', 'ZA913207.18', '320', '18'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '13', 'ZA913207.19', '310', '19'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '14', 'ZA913207.20', '312', '20'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '15', 'ZA913207.21', '241', '21'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '16', 'ZA913207.22', '290', '22'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '17', 'ZA913207.23', '267', '23'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '18', 'ZA913207.24', '313', '24'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '19', 'ZA913207.25', '298', '25'
+                  , '', '', ''
+                  )
+    SELECT * FROM DUAL
+     | Params: undefined / 20
+2022-11-17 19:43:00 [EDI System] info: 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+    
+2022-11-17 19:43:00 [EDI System] info: 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '0', 'ZA913207.06', '308', '06'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '1', 'ZA913207.07', '319', '07'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '2', 'ZA913207.08', '312', '08'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '3', 'ZA913207.09', '273', '09'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '4', 'ZA913207.10', '260', '10'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '5', 'ZA913207.11', '297', '11'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '6', 'ZA913207.12', '326', '12'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '7', 'ZA913207.13', '279', '13'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '8', 'ZA913207.14', '295', '14'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '9', 'ZA913207.15', '273', '15'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '10', 'ZA913207.16', '308', '16'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '11', 'ZA913207.17', '322', '17'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '12', 'ZA913207.18', '320', '18'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '13', 'ZA913207.19', '310', '19'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '14', 'ZA913207.20', '312', '20'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '15', 'ZA913207.21', '241', '21'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '16', 'ZA913207.22', '290', '22'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '17', 'ZA913207.23', '267', '23'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '18', 'ZA913207.24', '313', '24'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '19', 'ZA913207.25', '298', '25'
+                  , '', '', ''
+                  )
+    SELECT * FROM DUAL
+    
+2022-11-17 19:43:00 [EDI System] info: Insert successful = SQL: 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+     | Params: {"txID":"47851304","txSourceUpdateTime":"20191221 093246","supplierName":"INFINEON TECHNOLOGIES ASIA PACIFIC PTE LTD","lotName":"5571879","newLotName":"ZA913207","mesLotName":"ZA913207","fromStageSetName":"MS_OUT-STORE","Operation":"9996","productName":"TD005352551","goodQty1":"20","goodQty2":"5923","rejectQty1":"0","locationName":"MS"} / 1
+2022-11-17 19:43:00 [EDI System] info: Insert successful = SQL: 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '0', 'ZA913207.06', '308', '06'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '1', 'ZA913207.07', '319', '07'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '2', 'ZA913207.08', '312', '08'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '3', 'ZA913207.09', '273', '09'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '4', 'ZA913207.10', '260', '10'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '5', 'ZA913207.11', '297', '11'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '6', 'ZA913207.12', '326', '12'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '7', 'ZA913207.13', '279', '13'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '8', 'ZA913207.14', '295', '14'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '9', 'ZA913207.15', '273', '15'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '10', 'ZA913207.16', '308', '16'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '11', 'ZA913207.17', '322', '17'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '12', 'ZA913207.18', '320', '18'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '13', 'ZA913207.19', '310', '19'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '14', 'ZA913207.20', '312', '20'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '15', 'ZA913207.21', '241', '21'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '16', 'ZA913207.22', '290', '22'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '17', 'ZA913207.23', '267', '23'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '18', 'ZA913207.24', '313', '24'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '19', 'ZA913207.25', '298', '25'
+                  , '', '', ''
+                  )
+    SELECT * FROM DUAL
+     | Params: undefined / 20
+2022-11-17 21:17:00 [EDI System] info: 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+    
+2022-11-17 21:17:01 [EDI System] info: Insert successful = SQL: 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+     | Params: {"txID":"47851304","txSourceUpdateTime":"20191221 093246","supplierName":"INFINEON TECHNOLOGIES ASIA PACIFIC PTE LTD","lotName":"5571879","newLotName":"ZA913207","mesLotName":"ZA913207","fromStageSetName":"MS_OUT-STORE","Operation":"9996","productName":"TD005352551","goodQty1":"20","goodQty2":"5923","rejectQty1":"0","locationName":"MS"} / 1
+2022-11-17 21:17:01 [EDI System] info: 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '0', 'ZA913207.06', '308', '06'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '1', 'ZA913207.07', '319', '07'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '2', 'ZA913207.08', '312', '08'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '3', 'ZA913207.09', '273', '09'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '4', 'ZA913207.10', '260', '10'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '5', 'ZA913207.11', '297', '11'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '6', 'ZA913207.12', '326', '12'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '7', 'ZA913207.13', '279', '13'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '8', 'ZA913207.14', '295', '14'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '9', 'ZA913207.15', '273', '15'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '10', 'ZA913207.16', '308', '16'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '11', 'ZA913207.17', '322', '17'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '12', 'ZA913207.18', '320', '18'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '13', 'ZA913207.19', '310', '19'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '14', 'ZA913207.20', '312', '20'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '15', 'ZA913207.21', '241', '21'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '16', 'ZA913207.22', '290', '22'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '17', 'ZA913207.23', '267', '23'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '18', 'ZA913207.24', '313', '24'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '19', 'ZA913207.25', '298', '25'
+                  , '', '', ''
+                  )
+    SELECT * FROM DUAL
+    
+2022-11-17 21:17:01 [EDI System] info: Insert successful = SQL: 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '0', 'ZA913207.06', '308', '06'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '1', 'ZA913207.07', '319', '07'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '2', 'ZA913207.08', '312', '08'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '3', 'ZA913207.09', '273', '09'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '4', 'ZA913207.10', '260', '10'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '5', 'ZA913207.11', '297', '11'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '6', 'ZA913207.12', '326', '12'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '7', 'ZA913207.13', '279', '13'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '8', 'ZA913207.14', '295', '14'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '9', 'ZA913207.15', '273', '15'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '10', 'ZA913207.16', '308', '16'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '11', 'ZA913207.17', '322', '17'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '12', 'ZA913207.18', '320', '18'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '13', 'ZA913207.19', '310', '19'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '14', 'ZA913207.20', '312', '20'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '15', 'ZA913207.21', '241', '21'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '16', 'ZA913207.22', '290', '22'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '17', 'ZA913207.23', '267', '23'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '18', 'ZA913207.24', '313', '24'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '19', 'ZA913207.25', '298', '25'
+                  , '', '', ''
+                  )
+    SELECT * FROM DUAL
+     | Params: undefined / 20
+2022-11-17 21:32:30 [EDI System] info: 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+    
+2022-11-17 21:32:31 [EDI System] info: Insert successful = SQL: 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+     | Params: {"txID":"47851304","txSourceUpdateTime":"20191221 093246","supplierName":"INFINEON TECHNOLOGIES ASIA PACIFIC PTE LTD","lotName":"5571879","newLotName":"ZA913207","mesLotName":"ZA913207","fromStageSetName":"MS_OUT-STORE","Operation":"9996","productName":"TD005352551","goodQty1":"20","goodQty2":"5923","rejectQty1":"0","locationName":"MS"} / 1
+2022-11-17 21:32:31 [EDI System] info: 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '0', 'ZA913207.06', '308', '06'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '1', 'ZA913207.07', '319', '07'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '2', 'ZA913207.08', '312', '08'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '3', 'ZA913207.09', '273', '09'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '4', 'ZA913207.10', '260', '10'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '5', 'ZA913207.11', '297', '11'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '6', 'ZA913207.12', '326', '12'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '7', 'ZA913207.13', '279', '13'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '8', 'ZA913207.14', '295', '14'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '9', 'ZA913207.15', '273', '15'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '10', 'ZA913207.16', '308', '16'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '11', 'ZA913207.17', '322', '17'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '12', 'ZA913207.18', '320', '18'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '13', 'ZA913207.19', '310', '19'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '14', 'ZA913207.20', '312', '20'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '15', 'ZA913207.21', '241', '21'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '16', 'ZA913207.22', '290', '22'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '17', 'ZA913207.23', '267', '23'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '18', 'ZA913207.24', '313', '24'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '19', 'ZA913207.25', '298', '25'
+                  , '', '', ''
+                  )
+    SELECT * FROM DUAL
+    
+2022-11-17 21:32:31 [EDI System] info: Insert successful = SQL: 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '0', 'ZA913207.06', '308', '06'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '1', 'ZA913207.07', '319', '07'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '2', 'ZA913207.08', '312', '08'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '3', 'ZA913207.09', '273', '09'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '4', 'ZA913207.10', '260', '10'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '5', 'ZA913207.11', '297', '11'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '6', 'ZA913207.12', '326', '12'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '7', 'ZA913207.13', '279', '13'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '8', 'ZA913207.14', '295', '14'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '9', 'ZA913207.15', '273', '15'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '10', 'ZA913207.16', '308', '16'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '11', 'ZA913207.17', '322', '17'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '12', 'ZA913207.18', '320', '18'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '13', 'ZA913207.19', '310', '19'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '14', 'ZA913207.20', '312', '20'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '15', 'ZA913207.21', '241', '21'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '16', 'ZA913207.22', '290', '22'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '17', 'ZA913207.23', '267', '23'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '18', 'ZA913207.24', '313', '24'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '19', 'ZA913207.25', '298', '25'
+                  , '', '', ''
+                  )
+    SELECT * FROM DUAL
+     | Params: undefined / 20
+2022-11-17 21:33:30 [EDI System] info: 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+    
+2022-11-17 21:33:31 [EDI System] error: Insert SQL Failed = ORA-00001: 무결성 제약 조건(COMS.SYS_C00211744)에 위배됩니다 SQL : 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+     / Params : {"txID":"47851304","txSourceUpdateTime":"20191221 093246","supplierName":"INFINEON TECHNOLOGIES ASIA PACIFIC PTE LTD","lotName":"5571879","newLotName":"ZA913207","mesLotName":"ZA913207","fromStageSetName":"MS_OUT-STORE","Operation":"9996","productName":"TD005352551","goodQty1":"20","goodQty2":"5923","rejectQty1":"0","locationName":"MS"}
+2022-11-17 21:33:31 [EDI System] info: 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '0', 'ZA913207.06', '308', '06'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '1', 'ZA913207.07', '319', '07'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '2', 'ZA913207.08', '312', '08'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '3', 'ZA913207.09', '273', '09'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '4', 'ZA913207.10', '260', '10'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '5', 'ZA913207.11', '297', '11'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '6', 'ZA913207.12', '326', '12'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '7', 'ZA913207.13', '279', '13'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '8', 'ZA913207.14', '295', '14'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '9', 'ZA913207.15', '273', '15'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '10', 'ZA913207.16', '308', '16'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '11', 'ZA913207.17', '322', '17'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '12', 'ZA913207.18', '320', '18'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '13', 'ZA913207.19', '310', '19'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '14', 'ZA913207.20', '312', '20'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '15', 'ZA913207.21', '241', '21'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '16', 'ZA913207.22', '290', '22'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '17', 'ZA913207.23', '267', '23'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '18', 'ZA913207.24', '313', '24'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '19', 'ZA913207.25', '298', '25'
+                  , '', '', ''
+                  )
+    SELECT * FROM DUAL
+    
+2022-11-17 21:33:31 [EDI System] error: Insert SQL Failed = ORA-00001: 무결성 제약 조건(COMS.EDIXMLITEMS_PK)에 위배됩니다 SQL : 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '0', 'ZA913207.06', '308', '06'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '1', 'ZA913207.07', '319', '07'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '2', 'ZA913207.08', '312', '08'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '3', 'ZA913207.09', '273', '09'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '4', 'ZA913207.10', '260', '10'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '5', 'ZA913207.11', '297', '11'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '6', 'ZA913207.12', '326', '12'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '7', 'ZA913207.13', '279', '13'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '8', 'ZA913207.14', '295', '14'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '9', 'ZA913207.15', '273', '15'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '10', 'ZA913207.16', '308', '16'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '11', 'ZA913207.17', '322', '17'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '12', 'ZA913207.18', '320', '18'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '13', 'ZA913207.19', '310', '19'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '14', 'ZA913207.20', '312', '20'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '15', 'ZA913207.21', '241', '21'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '16', 'ZA913207.22', '290', '22'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '17', 'ZA913207.23', '267', '23'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '18', 'ZA913207.24', '313', '24'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '19', 'ZA913207.25', '298', '25'
+                  , '', '', ''
+                  )
+    SELECT * FROM DUAL
+     / Params : undefined
+2022-11-17 21:42:00 [EDI System] info: 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+    
+2022-11-17 21:42:01 [EDI System] error: Insert SQL Failed = ORA-00001: 무결성 제약 조건(COMS.SYS_C00211744)에 위배됩니다 SQL : 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+     / Params : {"txID":"47851304","txSourceUpdateTime":"20191221 093246","supplierName":"INFINEON TECHNOLOGIES ASIA PACIFIC PTE LTD","lotName":"5571879","newLotName":"ZA913207","mesLotName":"ZA913207","fromStageSetName":"MS_OUT-STORE","Operation":"9996","productName":"TD005352551","goodQty1":"20","goodQty2":"5923","rejectQty1":"0","locationName":"MS"}
+2022-11-17 21:42:01 [EDI System] info: 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '0', 'ZA913207.06', '308', '06'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '1', 'ZA913207.07', '319', '07'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '2', 'ZA913207.08', '312', '08'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '3', 'ZA913207.09', '273', '09'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '4', 'ZA913207.10', '260', '10'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '5', 'ZA913207.11', '297', '11'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '6', 'ZA913207.12', '326', '12'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '7', 'ZA913207.13', '279', '13'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '8', 'ZA913207.14', '295', '14'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '9', 'ZA913207.15', '273', '15'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '10', 'ZA913207.16', '308', '16'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '11', 'ZA913207.17', '322', '17'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '12', 'ZA913207.18', '320', '18'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '13', 'ZA913207.19', '310', '19'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '14', 'ZA913207.20', '312', '20'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '15', 'ZA913207.21', '241', '21'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '16', 'ZA913207.22', '290', '22'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '17', 'ZA913207.23', '267', '23'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '18', 'ZA913207.24', '313', '24'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '19', 'ZA913207.25', '298', '25'
+                  , '', '', ''
+                  )
+    SELECT * FROM DUAL
+    
+2022-11-17 21:42:01 [EDI System] error: Insert SQL Failed = ORA-00001: 무결성 제약 조건(COMS.EDIXMLITEMS_PK)에 위배됩니다 SQL : 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '0', 'ZA913207.06', '308', '06'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '1', 'ZA913207.07', '319', '07'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '2', 'ZA913207.08', '312', '08'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '3', 'ZA913207.09', '273', '09'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '4', 'ZA913207.10', '260', '10'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '5', 'ZA913207.11', '297', '11'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '6', 'ZA913207.12', '326', '12'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '7', 'ZA913207.13', '279', '13'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '8', 'ZA913207.14', '295', '14'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '9', 'ZA913207.15', '273', '15'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '10', 'ZA913207.16', '308', '16'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '11', 'ZA913207.17', '322', '17'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '12', 'ZA913207.18', '320', '18'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '13', 'ZA913207.19', '310', '19'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '14', 'ZA913207.20', '312', '20'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '15', 'ZA913207.21', '241', '21'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '16', 'ZA913207.22', '290', '22'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '17', 'ZA913207.23', '267', '23'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '18', 'ZA913207.24', '313', '24'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '19', 'ZA913207.25', '298', '25'
+                  , '', '', ''
+                  )
+    SELECT * FROM DUAL
+     / Params : undefined
+2022-11-17 21:44:00 [EDI System] info: 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+    
+2022-11-17 21:44:00 [EDI System] error: Insert SQL Failed = ORA-00001: 무결성 제약 조건(COMS.SYS_C00211744)에 위배됩니다 SQL : 
+    INSERT INTO EDIXMLDEF(MESTXID, TXSOURCE_UPDATETIME, SUPPLIER_LOTNAME, IFXLOTNAME, NEWLOTNAME, MESLOTNAME, STAGES_IDENTIFIER, OPERATION, PRODUCTNAME, GOODWFEQTY, GOODLOTQTY, REJECTWAFERQTY, LOCATION, SCHEDUING_AGREEMENT, SCHEDUING_AGREEMENT_LINEITEM)
+    VALUES (:txID, :txSourceUpdateTime, :supplierName, :lotName, :newLotName, :mesLotName, :fromStageSetName, :Operation, :productName, :goodQty1, :goodQty2, :rejectQty1, :locationName, '', '')
+     / Params : {"txID":"47851304","txSourceUpdateTime":"20191221 093246","supplierName":"INFINEON TECHNOLOGIES ASIA PACIFIC PTE LTD","lotName":"5571879","newLotName":"ZA913207","mesLotName":"ZA913207","fromStageSetName":"MS_OUT-STORE","Operation":"9996","productName":"TD005352551","goodQty1":"20","goodQty2":"5923","rejectQty1":"0","locationName":"MS"}
+2022-11-17 21:44:00 [EDI System] info: 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '0', 'ZA913207.06', '308', '06'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '1', 'ZA913207.07', '319', '07'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '2', 'ZA913207.08', '312', '08'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '3', 'ZA913207.09', '273', '09'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '4', 'ZA913207.10', '260', '10'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '5', 'ZA913207.11', '297', '11'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '6', 'ZA913207.12', '326', '12'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '7', 'ZA913207.13', '279', '13'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '8', 'ZA913207.14', '295', '14'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '9', 'ZA913207.15', '273', '15'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '10', 'ZA913207.16', '308', '16'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '11', 'ZA913207.17', '322', '17'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '12', 'ZA913207.18', '320', '18'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '13', 'ZA913207.19', '310', '19'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '14', 'ZA913207.20', '312', '20'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '15', 'ZA913207.21', '241', '21'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '16', 'ZA913207.22', '290', '22'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '17', 'ZA913207.23', '267', '23'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '18', 'ZA913207.24', '313', '24'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '19', 'ZA913207.25', '298', '25'
+                  , '', '', ''
+                  )
+    SELECT * FROM DUAL
+    
+2022-11-17 21:44:00 [EDI System] error: Insert SQL Failed = ORA-00001: 무결성 제약 조건(COMS.EDIXMLITEMS_PK)에 위배됩니다 SQL : 
+    INSERT ALL 
+    INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '0', 'ZA913207.06', '308', '06'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '1', 'ZA913207.07', '319', '07'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '2', 'ZA913207.08', '312', '08'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '3', 'ZA913207.09', '273', '09'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '4', 'ZA913207.10', '260', '10'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '5', 'ZA913207.11', '297', '11'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '6', 'ZA913207.12', '326', '12'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '7', 'ZA913207.13', '279', '13'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '8', 'ZA913207.14', '295', '14'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '9', 'ZA913207.15', '273', '15'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '10', 'ZA913207.16', '308', '16'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '11', 'ZA913207.17', '322', '17'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '12', 'ZA913207.18', '320', '18'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '13', 'ZA913207.19', '310', '19'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '14', 'ZA913207.20', '312', '20'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '15', 'ZA913207.21', '241', '21'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '16', 'ZA913207.22', '290', '22'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '17', 'ZA913207.23', '267', '23'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '18', 'ZA913207.24', '313', '24'
+                  , '', '', ''
+                  )INTO EDIXMLITEMS(MESTXID, SEQ, ITEMGROUP, GOODQTY, GENCHAR01, GENCHAR02, GENCHAR03, ITEMTYPE)
+                VALUES (
+                    '47851304', '19', 'ZA913207.25', '298', '25'
+                  , '', '', ''
+                  )
+    SELECT * FROM DUAL
+     / Params : undefined
